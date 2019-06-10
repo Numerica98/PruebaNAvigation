@@ -8,7 +8,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
 import androidx.navigation.findNavController
+import kotlinx.android.synthetic.main.fragment_account.*
 import kotlinx.android.synthetic.main.fragment_main.*
+import kotlinx.android.synthetic.main.fragment_settings.*
 
 class MainFragment : Fragment() {
 
@@ -24,7 +26,7 @@ class MainFragment : Fragment() {
         //crateNavigateOnClickListener(xml a ir, paramentros)
         bt_go_a_count.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.toAccount))
 
-        bt_go_settings.setOnClickListener {
+        btNew.setOnClickListener {
             it.findNavController().navigate(R.id.toSettings)
         }
     }

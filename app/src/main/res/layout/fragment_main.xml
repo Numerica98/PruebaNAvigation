@@ -17,9 +17,9 @@
 
     <Button
         android:layout_gravity="center"
-        android:id="@+id/bt_go_settings"
+        android:id="@+id/btNew"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="GO TO SETTINGS"/>
+        android:text="NEW"/>
 
 </LinearLayout>

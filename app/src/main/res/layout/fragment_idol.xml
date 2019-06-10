@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center"
+              tools:context=".SettingsFragment">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DATOS IDOL"
+            android:textSize="25dp"/>
+
+    <TextView
+            android:id="@+id/tv_nombreIdol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N/A"/>
+
+    <TextView
+            android:id="@+id/tv_compañiaIdol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N/A"/>
+
+    <TextView
+            android:id="@+id/tv_estaturaIdol"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N/A"/>
+
+    <Button
+            android:id="@+id/bt_regresarMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ir a menu"/>
+
+</LinearLayout>

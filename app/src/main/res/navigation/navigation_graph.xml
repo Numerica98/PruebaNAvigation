@@ -28,7 +28,11 @@
         android:id="@+id/settingsFragment"
         android:name="com.example.pruebanavigation.SettingsFragment"
         android:label="fragment_settings"
-        tools:layout="@layout/fragment_settings"/>
+        tools:layout="@layout/fragment_settings">
+        <action
+            android:id="@+id/toIdol"
+            app:destination="@id/idolFragment" />
+    </fragment>
     <fragment
         android:id="@+id/nameFragment"
         android:name="com.example.pruebanavigation.NameFragment"
@@ -38,4 +42,9 @@
             android:name="nameArg"
             app:argType="string"/>
     </fragment>
+    <fragment
+        android:id="@+id/idolFragment"
+        android:name="com.example.pruebanavigation.IdolFragment"
+        android:label="fragment_idol"
+        tools:layout="@layout/fragment_idol" />
 </navigation>

@@ -1,15 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
              tools:context=".SettingsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="SETTINGS VIEW"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAMPOS A LLENAR"
+        android:textSize="25dp"/>
 
-</FrameLayout>
+    <EditText
+        android:id="@+id/ed_nombreIdol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese el nombre del idol"/>
+
+    <EditText
+        android:id="@+id/ed_compañiaIdol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el la compañia del idol"/>
+
+    <EditText
+        android:id="@+id/ed_estaturaIdol"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese la estatura del idol"/>
+
+    <Button
+        android:id="@+id/bt_pasarDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pasar"/>
+
+</LinearLayout>
